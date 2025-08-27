@@ -1,4 +1,4 @@
-//大话数据结构 线性表的顺序存储实现
+// 线性表的顺序存储实现
 #include "stdio.h"    
 #include "stdlib.h"  
 #include "math.h"  
