@@ -1,6 +1,5 @@
 #include "stdio.h"    
 #include "stdlib.h"   
-
 #include "math.h"  
 #include "time.h"
 
@@ -75,6 +74,7 @@ Status Push(SqStack *S,SElemType e)
         }
         S->top++;				/* 栈顶指针增加一 */
         S->data[S->top]=e;  /* 将新插入元素赋值给栈顶空间 */
+        
         return OK;
 }
 
